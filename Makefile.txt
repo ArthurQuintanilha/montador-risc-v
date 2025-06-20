@@ -1,0 +1,10 @@
+CC = gcc
+CFLAGS = -Wall -std=c11
+
+all: montador
+
+montador: main.c montador.c montador.h
+	$(CC) $(CFLAGS) -o montador main.c montador.c
+
+clean:
+	rm -f montador *.o
