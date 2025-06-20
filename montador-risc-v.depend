@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1750436854 source:c:\arthur\montador-risc-v\main.c
+	<stdio.h>
+	<string.h>
+	"montador.h"
+	"montador.c"
+
+1750436367 c:\arthur\montador-risc-v\montador.h
+
+1750436367 c:\arthur\montador-risc-v\montador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"montador.h"
+

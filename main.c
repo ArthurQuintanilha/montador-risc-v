@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "montador.h"
+#include "montador.c"
 
 void ExibirCodigoAsm(const char *caminho) {
     FILE *arquivo = fopen(caminho, "r");
